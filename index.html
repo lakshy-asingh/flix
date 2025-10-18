@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+   <link rel="stylesheet" href="netflix.css">
+   <style>
+    .hero{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    margin-left: 20px;
+}
+.search-bar{
+    font-size: 15px ;
+    border: 4px  white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    i{
+        
+        color: white;
+        margin-right: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-style: normal;
+        gap: 20px;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: auto;
+
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        font-style: normal;
+        gap: 20px;
+    }
+    .content{
+        text-align: center;
+        color: white;
+        margin-top: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .content h1{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .content h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .get-started{
+    row-gap: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: px  #ccc;
+    height:6vh;
+
+    
+    box-sizing: border-box; 
+    background: fixed;
+    background-color: #e50914;
+    }
+ .hello{
+    font-size: 10px ;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-width: 0.2px;
+
+   }
+   .email-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input {
+    width: 25%;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    background: fixed;
+    color: aliceblue;
+    
+}
+
+.email-input:focus {
+    outline: none;
+    border-color: #e50914; 
+}
+
+   </style>
+</head>
+<body background="https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg" width="90%" height="90%">
+    <header>
+        <div class="logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" width="150" height="100" alt="Netflix Logo">
+        </div>
+            
+        <div>
+            <nav>
+                <button class="hello"><i class="bi bi-translate"> English <i class="bi-caret-down-fill"></i></i>
+            </button>
+            
+                <button class="search-bar">Sign In</button>
+         </nav>
+        </div> 
+        
+           
+        
+    </header>
+    <div class="content">
+        <div class="text">
+            <h1>Unlimited movies, TV <br>shows and more.</h1>
+            <h3> Starts at ₹149. Cancel at any time.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <br>
+             </div>
+             
+    
+    <div >
+        <input type="text" class="input" placeholder="Email address" size="30">
+    
+        <button class="get-started"> Get Started <i class="bi bi-chevron-right"></i></button>
+    </div>
+
+
+
+    </div> 
+</body>
+            
+            
